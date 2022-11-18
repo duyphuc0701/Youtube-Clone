@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+     rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu"
+         src="icons/hamburger-menu.svg">
+        <img class="youtube-logo"
+         src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" 
+        type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" 
+          src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!--Put position absolute inside
+         position relative-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon"
+           src="icons/voice-search-icon.svg">
+           <div class="tooltip">Search with
+            your voice
+           </div>
+        </button>
+      </div>
+      <div class="right-section">
+
+        <div class="upload-icon-container">
+          <img class="upload-icon" 
+          src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon"
+          src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img class="notifications-icon"
+          src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img class="current-user-picture" src="channel-pictures/duyphuc.jpg">
+      </div>
+      
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=k6jqx9kZgPM">
+              <img class="thumbnail"
+               src="thumbnails/talk-that-talk.webp">
+            </a>
+            <div class="video-time">2:55</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@JYPEntertainment">
+                <img class="profile-picture"
+                 src="channel-pictures/JYP.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/JYP.jpg">
+                <div>
+                  <p class="youtuber">JYP Entertainment 
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+                  <p class="subscribers">26M subscribers</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=k6jqx9kZgPM">
+                 TWICE "Talk that Talk" M/V
+                </a>
+             </p>
+             <p class="video-author">JYP Entertainment
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">106M views &#183; 2 months ago</p>
+            </div>
+           
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=fCO7f0SmrDc">
+              <img class="thumbnail"
+               src="thumbnails/nxde.webp">
+            </a>
+            <div class="video-time">3:04</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@gidleofficial">
+                <img class="profile-picture" src="channel-pictures/gidle.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/gidle.jpg">
+                <div>
+                  <p class="youtuber">(G)I-DLE (여자)아이들 (Official YouTube Channel)
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+                  <p class="subscribers">4,58M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=fCO7f0SmrDc">
+                 (여자)아이들((G)I-DLE) - 'Nxde' Official Music Video 
+                </a>
+             </p>
+             <p class="video-author" href="https://www.youtube.com/@gidleofficial">
+              (G)I-DLE (여자)아이들 (Official YouTube Channel)
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">115M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Hbb5GPxXF1w">
+              <img class="thumbnail"
+               src="thumbnails/sneakers.webp">
+            </a>
+            <div class="video-time">3:05</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@JYPEntertainment">
+                <img class="profile-picture" src="channel-pictures/JYP.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/JYP.jpg">
+                <div>
+                  <p class="youtuber">JYP Entertainment
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+                  <p class="subscribers">26M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=Hbb5GPxXF1w">
+                 ITZY “SNEAKERS” M/V @ITZY
+                </a>
+             </p>
+             <p class="video-author">JYP Entertainment
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">119M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=4vbDFu0PUew">
+              <img class="thumbnail"
+               src="thumbnails/fearless.webp">
+            </a>
+            <div class="video-time">3:03</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@HYBELABELS">
+                <img class="profile-picture" src="channel-pictures/hype-labels.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/hype-labels.jpg">
+                <div>
+                  <p class="youtuber">HYBE LABELS
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+                  <p class="subscribers">68.8M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=4vbDFu0PUew">
+                 LE SSERAFIM FEARLESS OFFICIAL M/V
+                </a>
+             </p>
+             <p class="video-author">HYBE LABELS
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">126M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=POe9SOEKotk">
+              <img class="thumbnail"
+               src="thumbnails/shut-down.webp">
+            </a>
+            <div class="video-time">3:01</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A">
+                <img class="profile-picture" src="channel-pictures/blackpink.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/blackpink.jpg">
+                <div>
+                  <p class="youtuber">BLACKPINK
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+                  <p class="subscribers">83M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=POe9SOEKotk">
+                 BLACKPINK - ‘Shut Down’ M/V
+                </a>
+             </p>
+             <p class="video-author">BLACKPINK
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">237M views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=4TWR90KJl84">
+              <img class="thumbnail"
+               src="thumbnails/next-level.webp">
+            </a>
+            <div class="video-time">3:56</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SMTOWN">
+                <img class="profile-picture" src="channel-pictures/sm-town.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/sm-town.jpg">
+                <div>
+                  <p class="youtuber">SMTOWN
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+
+                  <p class="subscribers">31,1M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=4TWR90KJl84">
+                 aespa 에스파 'Next Level' MV
+                </a>
+             </p>
+             <p class="video-author">SMTOWN
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">251M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=NoYKBAajoyo">
+              <img class="thumbnail"
+               src="thumbnails/dun-dun.webp">
+            </a>
+            <div class="video-time">3:29</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@stonemusicent">
+                <img class="profile-picture" src="channel-pictures/stone-music.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/stone-music.jpg">
+                <div>
+                  <p class="youtuber">Stone Music Entertainment
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+
+                  <p class="subscribers">10,5M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=NoYKBAajoyo">
+                 EVERGLOW (에버글로우) - DUN DUN MV
+                </a>
+             </p>
+             <p class="video-author">Stone Music Entertainment
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">268M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=js1CtxSY38I">
+              <img class="thumbnail"
+               src="thumbnails/attention.webp">
+            </a>
+            <div class="video-time">4:23</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@HYBELABELS">
+                <img class="profile-picture" src="channel-pictures/hype-labels.jpg">
+              </a>
+              <div class="channel-picture-tooltip">
+                <img class="profile-picture-tooltip"
+                 src="channel-pictures/hype-labels.jpg">
+                <div>
+                  <p class="youtuber">HYBE LABELS
+                    <span class="musical-note-symbol">&#9834;</span>
+                  </p>
+                  <p class="subscribers">68.8M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link"
+                 href="https://www.youtube.com/watch?v=js1CtxSY38I">
+                 NewJeans (뉴진스) 'Attention' Official MV
+                </a>
+             </p>
+             <p class="video-author">HYBE LABELS
+              <span class="musical-note-symbol">&#9834;</span>
+             </p>
+             <p class="video-stats">32M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
